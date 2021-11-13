@@ -1,0 +1,31 @@
+.nav-list {
+  margin: 0;
+  padding-right: 30px;
+  padding-left: 84px;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-bottom: 19px;
+    padding: 0;
+  }
+
+  @media (max-width: $tablet-breakpoint) {
+    margin-bottom: 9px;
+  }
+}
+
+.nav-list__item {
+  margin-right: 35px;
+  margin-bottom: 10px;
+
+  @media (max-width: $desktop-breakpoint) {
+    margin: 0 0 21px 0;
+  }
+}
+
+.nav-list__item a {
+  @include font_poppins(16px, 24px, 500, $dark-1d);
+
+  @media (max-width: $desktop-breakpoint) {
+    @include font_poppins(24px, 36px, 500, $basic-light);
+  }
+}

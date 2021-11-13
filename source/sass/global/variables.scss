@@ -1,0 +1,29 @@
+// -------------------------- basic colors
+$basic-dark: #000000;
+$basic-light: #ffffff;
+$dark-1d: #1d1613;
+$dark-grey: #9b9997;
+$silver: #c4c4c4;
+$light-grey: #f0eae4;
+$extra-light-grey: #f6f5f4;
+$dark-brown: #563f33;
+$fade-sienna: #a87b62;
+
+$font-enlarge-menu: rgba($basic-light, 0.75);
+$bg-search-form: rgba($basic-light, 0.15);
+
+$mobile_padding: 15px;
+$tablet-padding: 45px;
+
+:root {
+  --mobile-padding: 15px;
+  --tablet-padding: 45px;
+}
+
+$retina-dppx: 1.5dppx;
+$retina-dpi: 144dpi;
+
+$mobile-min-width: 320px;
+$tablet-breakpoint: 767px;
+$desktop-breakpoint: 1023px;
+$desktop-max-width: 1170px;

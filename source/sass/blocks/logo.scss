@@ -1,0 +1,24 @@
+.logo svg {
+  width: 66px;
+  height: 66px;
+
+  fill: $fade-sienna;
+  stroke: $fade-sienna;
+
+
+  @media (max-width: $desktop-breakpoint) {
+    margin-left: -5px;
+  }
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 52px;
+    height: 52px;
+  }
+}
+
+.logo--menu svg {
+  @media (max-width: $desktop-breakpoint) {
+    fill: $basic-light;
+    stroke: $basic-light;
+  }
+}

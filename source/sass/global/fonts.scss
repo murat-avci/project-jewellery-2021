@@ -1,55 +1,57 @@
 /* cormorant-garamond-italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-weight: 400;
-  src: local(''),
-       url('../fonts/cormorant-garamond-v10-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/cormorant-garamond-v10-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("CormorantGaramond-RegularItalic"), url("../fonts/cormorant-garamond-v10-latin-italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v10-latin-italic.woff") format("woff");
 }
 /* cormorant-garamond-500italic - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: italic;
   font-weight: 500;
-  src: local(''),
-       url('../fonts/cormorant-garamond-v10-latin-500italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/cormorant-garamond-v10-latin-500italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("CormorantGaramond-MediumItalic"), url("../fonts/cormorant-garamond-v10-latin-500italic.woff2") format("woff2"), url("../fonts/cormorant-garamond-v10-latin-500italic.woff") format("woff");
 }
 /* cormorant-garamond-600 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-weight: 600;
-  src: local(''),
-       url('../fonts/cormorant-garamond-v10-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/cormorant-garamond-v10-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("CormorantGaramond-SemiBold"), url("../fonts/cormorant-garamond-v10-latin-600.woff2") format("woff2"), url("../fonts/cormorant-garamond-v10-latin-600.woff") format("woff");
 }
 /* cormorant-garamond-700 - latin */
 @font-face {
-  font-family: 'Cormorant Garamond';
+  font-family: "Cormorant Garamond";
   font-style: normal;
   font-weight: 700;
-  src: local(''),
-       url('../fonts/cormorant-garamond-v10-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/cormorant-garamond-v10-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("CormorantGaramond-Bold"), url("../fonts/cormorant-garamond-v10-latin-700.woff2") format("woff2"), url("../fonts/cormorant-garamond-v10-latin-700.woff") format("woff");
 }
 
 /* poppins-regular - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  src: local(''),
-       url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/poppins-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("Poppins-Regular"), url("../fonts/poppins-v15-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v15-latin-regular.woff") format("woff");
 }
 /* poppins-500 - latin */
 @font-face {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
-  src: local(''),
-       url('../fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/poppins-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  font-display: swap;
+  src: local("Poppins-Medium"), url("../fonts/poppins-v15-latin-500.woff2") format("woff2"), url("../fonts/poppins-v15-latin-500.woff") format("woff");
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Poppins-Bold"), url("../fonts/poppins-v15-latin-700.woff2") format("woff2"), url("../fonts/poppins-v15-latin-700.woff") format("woff");
 }

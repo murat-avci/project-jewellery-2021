@@ -1,0 +1,5 @@
+.login-link {
+  @media (max-width: $desktop-breakpoint) {
+    display: none;
+  }
+}

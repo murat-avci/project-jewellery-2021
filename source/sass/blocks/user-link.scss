@@ -1,0 +1,12 @@
+.user-link__item {
+  margin-left: 35px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  @include font_poppins(14px, 21px, 500, $dark-1d);
+
+  @media (max-width: $desktop-breakpoint) {
+    margin: 0;
+    padding: 0;
+  }
+}

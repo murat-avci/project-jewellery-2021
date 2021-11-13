@@ -1,0 +1,30 @@
+.burger-btn {
+  display: none;
+  width: 25px;
+  height: 18px;
+  padding: 0;
+
+  background: transparent;
+  border: none;
+  outline: none;
+
+  @media (max-width: $desktop-breakpoint) {
+    display: block;
+  }
+}
+
+.burger-btn--js svg {
+  @media (max-width: $desktop-breakpoint) {
+    display: block;
+    width: 25px;
+    height: 18px;
+
+    stroke: $dark-1d;
+  }
+}
+
+.burger-btn--menu svg {
+  @media (max-width: $desktop-breakpoint) {
+    stroke: $basic-light;
+  }
+}
